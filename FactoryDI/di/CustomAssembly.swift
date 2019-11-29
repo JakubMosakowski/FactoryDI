@@ -6,7 +6,7 @@ class CustomAssembly: Assembly {
             AsyncActionFactory(container: container)
         }
         container.register(TestActionType.self) { (resolver, arg: IntType) in
-            TestAction(arg.argument)
+            TestAction(arg)
         }
     }
 }

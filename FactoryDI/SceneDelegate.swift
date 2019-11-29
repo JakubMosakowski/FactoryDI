@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let asyncActionFactory = container.resolve(AsyncActionFactoryType.self)!
         let value = IntType(5)
 
-        let testClass = asyncActionFactory.getAction(TestActionType.self, arg: value, argType: IntType.self)
+        let testClass = asyncActionFactory.getAction(TestActionType.self, arg: value, argType: value.self)
         
         let contentView = ContentView(text: testClass.getText())
 

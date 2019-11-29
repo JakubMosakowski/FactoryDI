@@ -11,7 +11,7 @@ class AsyncActionFactory: AsyncActionFactoryType {
         return container.resolve(type)!
     }
 
-    func getAction<T,K>(_ type: T.Type, arg: K, argType: K.Type) -> T {
+    func getAction<T: TypedAction, K>(_ type: T.Type, arg: K, argType: T.TYPE) -> T {
         return container.resolve(type, argument: arg)!
     }
 }

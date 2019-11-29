@@ -1,2 +1,0 @@
-class IntType: Type<Int> {
-}

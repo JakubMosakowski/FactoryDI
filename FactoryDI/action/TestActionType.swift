@@ -1,3 +1,3 @@
-protocol TestActionType : IntType {
+protocol TestActionType: TypedAction {
     func getText() -> String
 }
