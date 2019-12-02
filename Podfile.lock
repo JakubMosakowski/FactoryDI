@@ -1,16 +1,16 @@
 PODS:
-  - Swinject (2.0.0)
+  - NeedleFoundation (0.10.0)
 
 DEPENDENCIES:
-  - Swinject (= 2.0.0)
+  - NeedleFoundation
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Swinject
+    - NeedleFoundation
 
 SPEC CHECKSUMS:
-  Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
+  NeedleFoundation: 5622f7c05f51fe185925969145e7bcf065d35650
 
-PODFILE CHECKSUM: 2b214a156daa7453161bd0fbd3e301386d60cf89
+PODFILE CHECKSUM: c65c9190edc7db112b2b3c3a65a3a7342f94b2ad
 
 COCOAPODS: 1.8.4

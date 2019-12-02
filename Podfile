@@ -5,6 +5,5 @@ inhibit_all_warnings!
 use_frameworks!
 
 target 'FactoryDI' do
-     pod 'Swinject', '2.0.0'
-#    pod 'SwinjectPropertyLoader', '1.0.0'
+     pod 'NeedleFoundation'
 end

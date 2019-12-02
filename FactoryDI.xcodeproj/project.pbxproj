@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7551DFD123955ECF00A25D6E /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551DFD023955ECF00A25D6E /* NeedleGenerated.swift */; };
 		7561A5F9238FC0A20066D005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561A5F8238FC0A20066D005 /* AppDelegate.swift */; };
 		7561A5FB238FC0A20066D005 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561A5FA238FC0A20066D005 /* SceneDelegate.swift */; };
 		7561A5FD238FC0A20066D005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561A5FC238FC0A20066D005 /* ContentView.swift */; };
@@ -15,8 +16,6 @@
 		7561A605238FC0A30066D005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7561A603238FC0A30066D005 /* LaunchScreen.storyboard */; };
 		7561A60D238FC1230066D005 /* AsyncActionFactoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561A60C238FC1230066D005 /* AsyncActionFactoryType.swift */; };
 		7561A60F238FC13C0066D005 /* AsyncActionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561A60E238FC13C0066D005 /* AsyncActionFactory.swift */; };
-		756864BE239118E0003C4EE7 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756864BD239118E0003C4EE7 /* Type.swift */; };
-		756864C0239118ED003C4EE7 /* IntType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756864BF239118ED003C4EE7 /* IntType.swift */; };
 		7569812F2390027D00D96F9C /* TestAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7569812E2390027D00D96F9C /* TestAction.swift */; };
 		756981312390053F00D96F9C /* ContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756981302390053F00D96F9C /* ContainerFactory.swift */; };
 		756981332390055D00D96F9C /* CustomAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756981322390055D00D96F9C /* CustomAssembly.swift */; };
@@ -28,6 +27,7 @@
 		14A617F7472B2DC615862558 /* Pods_FactoryDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FactoryDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B4BB7493A61F36693CB060 /* Pods-FactoryDI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FactoryDI.release.xcconfig"; path = "Target Support Files/Pods-FactoryDI/Pods-FactoryDI.release.xcconfig"; sourceTree = "<group>"; };
 		55658D4D3BF38F62C923C75D /* Pods-FactoryDI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FactoryDI.debug.xcconfig"; path = "Target Support Files/Pods-FactoryDI/Pods-FactoryDI.debug.xcconfig"; sourceTree = "<group>"; };
+		7551DFD023955ECF00A25D6E /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
 		7561A5F5238FC0A20066D005 /* FactoryDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7561A5F8238FC0A20066D005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7561A5FA238FC0A20066D005 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +38,6 @@
 		7561A606238FC0A30066D005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7561A60C238FC1230066D005 /* AsyncActionFactoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncActionFactoryType.swift; sourceTree = "<group>"; };
 		7561A60E238FC13C0066D005 /* AsyncActionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncActionFactory.swift; sourceTree = "<group>"; };
-		756864BD239118E0003C4EE7 /* Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
-		756864BF239118ED003C4EE7 /* IntType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntType.swift; sourceTree = "<group>"; };
 		7569812E2390027D00D96F9C /* TestAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAction.swift; sourceTree = "<group>"; };
 		756981302390053F00D96F9C /* ContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerFactory.swift; sourceTree = "<group>"; };
 		756981322390055D00D96F9C /* CustomAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAssembly.swift; sourceTree = "<group>"; };
@@ -88,12 +86,12 @@
 		7561A5F7238FC0A20066D005 /* FactoryDI */ = {
 			isa = PBXGroup;
 			children = (
-				756864BC239118D4003C4EE7 /* type */,
 				75698135239008BC00D96F9C /* action */,
 				756981342390087B00D96F9C /* di */,
 				7561A5F8238FC0A20066D005 /* AppDelegate.swift */,
 				7561A5FA238FC0A20066D005 /* SceneDelegate.swift */,
 				7561A5FC238FC0A20066D005 /* ContentView.swift */,
+				7551DFD023955ECF00A25D6E /* NeedleGenerated.swift */,
 				7561A5FE238FC0A30066D005 /* Assets.xcassets */,
 				7561A603238FC0A30066D005 /* LaunchScreen.storyboard */,
 				7561A606238FC0A30066D005 /* Info.plist */,
@@ -108,15 +106,6 @@
 				7561A601238FC0A30066D005 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		756864BC239118D4003C4EE7 /* type */ = {
-			isa = PBXGroup;
-			children = (
-				756864BD239118E0003C4EE7 /* Type.swift */,
-				756864BF239118ED003C4EE7 /* IntType.swift */,
-			);
-			path = type;
 			sourceTree = "<group>";
 		};
 		756981342390087B00D96F9C /* di */ = {
@@ -159,6 +148,7 @@
 				7561A5F2238FC0A20066D005 /* Frameworks */,
 				7561A5F3238FC0A20066D005 /* Resources */,
 				FA83C100F99A1D32E9B9C4F0 /* [CP] Embed Pods Frameworks */,
+				7551DFCE23955ABF00A25D6E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -216,6 +206,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7551DFCE23955ABF00A25D6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport SOURCEKIT_LOGGING=0 && needle generate FactoryDI/NeedleGenerated.swift FactoryDI/\n";
+		};
 		BF5A7B12A2E0E5F9E369C9B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,9 +273,8 @@
 				756981332390055D00D96F9C /* CustomAssembly.swift in Sources */,
 				7561A60F238FC13C0066D005 /* AsyncActionFactory.swift in Sources */,
 				7561A5F9238FC0A20066D005 /* AppDelegate.swift in Sources */,
+				7551DFD123955ECF00A25D6E /* NeedleGenerated.swift in Sources */,
 				7561A60D238FC1230066D005 /* AsyncActionFactoryType.swift in Sources */,
-				756864BE239118E0003C4EE7 /* Type.swift in Sources */,
-				756864C0239118ED003C4EE7 /* IntType.swift in Sources */,
 				7561A5FB238FC0A20066D005 /* SceneDelegate.swift in Sources */,
 				7569812F2390027D00D96F9C /* TestAction.swift in Sources */,
 				7561A5FD238FC0A20066D005 /* ContentView.swift in Sources */,
