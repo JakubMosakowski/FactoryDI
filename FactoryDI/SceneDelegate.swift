@@ -9,23 +9,17 @@
 import UIKit
 import SwiftUI
 
-
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-//        let container = ContainerFactory.createContainer()
-//        let asyncActionFactory = container.resolve(AsyncActionFactoryType.self)!
-        let value = 5
-//        let testClass = asyncActionFactory.getAction(TestActionType.self, arg: value)
-        
-        let contentView = ContentView(text: "ASDASDSDAADS")
-
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            let component = RootComponent()
+            
+            window.rootViewController = component.rootViewController
             self.window = window
             window.makeKeyAndVisible()
         }
